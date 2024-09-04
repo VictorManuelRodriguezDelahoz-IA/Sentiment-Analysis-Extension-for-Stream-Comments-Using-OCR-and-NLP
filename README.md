@@ -1,0 +1,2 @@
+
+I am developing a browser extension that extracts text from the comments in your streams and performs sentiment analysis. This is done by initially using Python libraries for screen capture to take a screenshot of the user’s screen, then isolating the comments in the image and applying OCR to extract the text. Subsequently, NLP techniques and generative AI models are used to analyze the text. The entire process is wrapped in a FastAPI API, deployed on a server, and packaged to be launched as a browser extension.
